@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
         <title>Creating Effects with CSS</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/style.css">
@@ -25,21 +28,27 @@
         <!--IMAGES-->
         <section>
             <!--IMAGE 1-->
-            <div id="image1">
-                <img src="images/Lifeline.png" alt="Image of Lifeline from Apex Legends">
+            <div class="image-container" id="image1">
+                <img src="images/Lifeline.webp" alt="Image of Lifeline from Apex Legends">
+                <div class="overlay">
+                    <h2 class="black-ops-one-regular">Lifeline</h2>
+                    <p class="black-ops-one-regular">Lifeline is a combat medic in Apex Legends, known for her healing abilities and support role in the game.</p>
+                </div>
             </div>
             <!--IMAGE 2-->
-            <div id="image2">
-                <img src="images/Zenyatta.png" alt="Image of Zenyatta from Overwatch">
+            <div class="image-container" id="image2">
+                <img src="images/Zenyatta.jpg" alt="Image of Zenyatta from Overwatch" class="zoom">
             </div>
             <!--IMAGE 3-->
-            <div id="image3">
-                <img src="images/Warlock.png" alt="Image of a Warlock from Destiny 2">
+            <div class="image-container" id="image3">
+                <div class="circle">
+                    <img src="images/Warlock.jpg" alt="Image of a Warlock from Destiny 2">
+                </div>
             </div>
         </section>
         <!--FOOTER-->
         <footer>
-            <div>
+            <div class="footer-text">
                 <p>&copy; Avery Labs. All rights reserved.</p>
             </div>
         </footer>
