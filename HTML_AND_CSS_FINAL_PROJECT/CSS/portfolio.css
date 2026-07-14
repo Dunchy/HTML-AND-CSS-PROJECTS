@@ -270,7 +270,7 @@ footer {
 
 /***** VIDEO STYLING *****/
 /* Formatting for background video */
-#Typing_Video {
+#bg-video {
     position: fixed;
     /* This fixes the video to the page */
     right: 0;
